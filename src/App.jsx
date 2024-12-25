@@ -1,22 +1,13 @@
-import { BrowserRouter, Link } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Router from './router/Router';
 import { GlobalStyles } from './styles/GlobalStyles';
+import Header from './components/header/Header';
 
 const App = () => {
 	return (
 		<BrowserRouter>
 			<GlobalStyles />
-			<nav>
-				<ul>
-					<Link to='/'>Home</Link>
-				</ul>
-				<ul>
-					<Link to='/about'>About</Link>
-				</ul>
-			</nav>
-			<button>One</button>
-			<button>Two</button>
-			<button>Three</button>
+			<Header />
 			<Router />
 		</BrowserRouter>
 	);

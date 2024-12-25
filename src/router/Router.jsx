@@ -1,14 +1,22 @@
 import { Route, Routes } from 'react-router-dom';
 import Home from '../pages/home/Home';
-import About from '../pages/about/About';
-import User from '../pages/user/User';
+import { MITHOLOGIES_INFO } from '../constants/mithologies-info';
+import Mithology from '../pages/mithology/Mithology';
 
 const Router = () => {
 	return (
 		<Routes>
 			<Route path='/' element={<Home />} />
-			<Route path='/about' element={<About />} />
-			<Route path='/user/:username' element={<User />} />
+			{MITHOLOGIES_INFO.map(mithology => {
+				const mithologyName = mithology.name;
+				return (
+					<Route
+						key={mithology.id}
+						path={mithology.path}
+						element={<Mithology mithologyName={mithologyName} />}
+					/>
+				);
+			})}
 		</Routes>
 	);
 };
