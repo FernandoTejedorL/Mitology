@@ -1,13 +1,17 @@
-import { Link } from 'react-router-dom';
+import GoToMythButton from '../../components/goToMythButton/GoToMythButton';
+import { MITHOLOGIES_INFO } from '../../constants/mithologies-info';
 import {
 	StyledBanner,
 	StyledButtonsGrid,
 	StyledHomeMain,
 	StyledLegend,
 	StyledMainContainer,
-	StyledMythButton,
 	StyledParagraph,
-	StyledTitle
+	StyledParagraphBig,
+	StyledParagraphBigContainer,
+	StyledTitle,
+	StyledToHideInBig,
+	StyledToHideInSmall
 } from './home.styles';
 
 const Home = () => {
@@ -41,43 +45,44 @@ const Home = () => {
 					creatures, heroic quests, and gods as we journey through the diverse
 					worlds of mythology.
 				</StyledParagraph>
-				<img src='/assets/images/common/separator-h.png' alt='' />
+				<StyledToHideInBig src='/assets/images/common/separator-h.png' alt='' />
 				<StyledButtonsGrid>
-					<Link>
-						<StyledMythButton>
-							<img src='/assets/images/home/roman-logo.png' alt='roman-logo' />
-							<span>ROMAN</span>
-						</StyledMythButton>
-					</Link>
-					<Link>
-						<StyledMythButton>
-							<img src='/assets/images/home/greek-logo.png' alt='greek-logo' />
-							<span>GREEK</span>
-						</StyledMythButton>
-					</Link>
-					<Link>
-						<StyledMythButton>
-							<img
-								src='/assets/images/home/egyptian-logo.png'
-								alt='egyptian-logo'
-							/>
-							<span>EGYPTIAN</span>
-						</StyledMythButton>
-					</Link>
-					<Link>
-						<StyledMythButton>
-							<img
-								src='/assets/images/home/nordic-logo.png'
-								alt='nordic-logo'
-							/>
-							<span>NORDIC</span>
-						</StyledMythButton>
-					</Link>
+					{MITHOLOGIES_INFO.map(mithology => (
+						<GoToMythButton
+							key={mithology.id}
+							path={mithology.path}
+							name={mithology.name}
+							logo={mithology.logo}
+						/>
+					))}
 				</StyledButtonsGrid>
+				<StyledToHideInSmall
+					src='/assets/images/common/separator-h.png'
+					alt=''
+				/>
+				<StyledParagraphBigContainer>
+					<StyledParagraphBig $textAlign={'left'}>
+						Dive into the fascinating stories and timeless legends of ancient
+						cultures. From the epic tales of Greek gods and Norse warriors to
+						the mystical folklore of Egypt and the Rome, explore the myths that
+						have inspired humanity for centuries. Uncover the meaning behind
+						legendary creatures, heroic quests, and gods as we journey through
+						the diverse worlds of mythology.
+					</StyledParagraphBig>
+					<StyledParagraphBig $textAlign={'right'}>
+						Embark on a journey through the echoes of ancient wisdom, where
+						every myth holds a lesson and every legend a glimpse into the human
+						spirit. Discover how these stories shaped civilizations, influenced
+						art, and continue to resonate in modern culture. Whether you’re
+						captivated by the trickery of Loki, the might of Zeus, or the
+						enigmatic gods of the Nile, these tales offer a window into the
+						beliefs, fears, and hopes of our ancestors.
+					</StyledParagraphBig>
+				</StyledParagraphBigContainer>
 				<StyledLegend>
-					"Incluso el Olimpo tembló ante el poder del trueno de Zeus."
+					'Even Olympus trembled ahead the power of Zeus' thunder...'
 				</StyledLegend>
-				<img src='/assets/images/common/separator-h.png' alt='' />
+				<StyledToHideInBig src='/assets/images/common/separator-h.png' alt='' />
 			</StyledMainContainer>
 		</StyledHomeMain>
 	);
