@@ -17,5 +17,6 @@ export const FONT_WEIGHT = {
 	regular: '400',
 	medium: '500',
 	semibold: '600',
-	bold: '700'
+	bold: '700',
+	black: '900'
 };
