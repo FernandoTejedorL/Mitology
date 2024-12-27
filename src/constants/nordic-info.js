@@ -14,6 +14,7 @@ export const NORDIC_INFO = [
 		0: {
 			beingOne: {
 				name: 'ODIN',
+				tab: 'ODIN',
 				image: {
 					mobile: '/assets/images/nordic/odin-mobile.jpg',
 					tablet: '/assets/images/nordic/odin-tablet.jpg',
@@ -24,6 +25,7 @@ export const NORDIC_INFO = [
 			},
 			beingTwo: {
 				name: 'THOR',
+				tab: 'THOR',
 				image: {
 					mobile: '/assets/images/nordic/thor-mobile.jpg',
 					tablet: '/assets/images/nordic/thor-tablet.jpg',
@@ -34,6 +36,7 @@ export const NORDIC_INFO = [
 			},
 			beingThree: {
 				name: 'LOKI',
+				tab: 'LOKI',
 				image: {
 					mobile: '/assets/images/nordic/loki-mobile.jpg',
 					tablet: '/assets/images/nordic/loki-tablet.jpg',
@@ -46,6 +49,7 @@ export const NORDIC_INFO = [
 		1: {
 			beingOne: {
 				name: 'FENRIR',
+				tab: 'FENRIR',
 				image: {
 					mobile: '/assets/images/nordic/fenrir-mobile.jpg',
 					tablet: '/assets/images/nordic/fenrir-tablet.jpg',
@@ -56,6 +60,7 @@ export const NORDIC_INFO = [
 			},
 			beingTwo: {
 				name: 'JÖRGUNMANDR',
+				tab: 'JÖRGUNMANDR',
 				image: {
 					mobile: '/assets/images/nordic/jorgunmandr-mobile.jpg',
 					tablet: '/assets/images/nordic/jorgunmandr-tablet.jpg',
@@ -66,6 +71,7 @@ export const NORDIC_INFO = [
 			},
 			beingThree: {
 				name: 'NÍĐHOÖGGR',
+				tab: 'NÍĐHOÖGGR',
 				image: {
 					mobile: '/assets/images/nordic/nidhoggr-mobile.jpg',
 					tablet: '/assets/images/nordic/nidhogrr-tablet.jpg',
@@ -78,6 +84,7 @@ export const NORDIC_INFO = [
 		2: {
 			beingOne: {
 				name: 'MJOLNIR',
+				tab: 'MJOLNIR',
 				image: {
 					mobile: '/assets/images/nordic/mjolnir-mobile.jpg',
 					tablet: '/assets/images/nordic/mjolnir-tablet.jpg',
@@ -88,6 +95,7 @@ export const NORDIC_INFO = [
 			},
 			beingTwo: {
 				name: 'RAGNAROK',
+				tab: 'RAGNAROK',
 				image: {
 					mobile: '/assets/images/nordic/ragnarok-mobile.jpg',
 					tablet: '/assets/images/nordic/ragnarok-tablet.jpg',
@@ -98,6 +106,7 @@ export const NORDIC_INFO = [
 			},
 			beingThree: {
 				name: 'SKÖL AND HATI',
+				tab: 'SKÖL',
 				image: {
 					mobile: '/assets/images/nordic/skoll-mobile.jpg',
 					tablet: '/assets/images/nordic/skoll-tablet.jpg',

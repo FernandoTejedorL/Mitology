@@ -9,11 +9,17 @@ const Router = () => {
 			<Route path='/' element={<Home />} />
 			{MITHOLOGIES_INFO.map(mithology => {
 				const mithologyName = mithology.name;
+				const mithologyInfo = mithology.info;
 				return (
 					<Route
 						key={mithology.id}
 						path={mithology.path}
-						element={<Mithology mithologyName={mithologyName} />}
+						element={
+							<Mithology
+								mithologyName={mithologyName}
+								mithologyInfo={mithologyInfo}
+							/>
+						}
 					/>
 				);
 			})}

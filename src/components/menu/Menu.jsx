@@ -10,7 +10,6 @@ import {
 
 const Menu = () => {
 	const [showMenu, setShowMenu] = useState(false);
-	console.log(showMenu);
 	return (
 		<>
 			<StyledNav $showMenu={showMenu}>

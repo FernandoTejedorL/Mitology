@@ -14,6 +14,7 @@ export const ROMAN_INFO = [
 		0: {
 			beingOne: {
 				name: 'JUPITER',
+				tab: 'JUPITER',
 				image: {
 					mobile: '/assets/images/roman/jupiter-mobile.jpg',
 					tablet: '/assets/images/roman/jupiter-tablet.jpg',
@@ -24,6 +25,7 @@ export const ROMAN_INFO = [
 			},
 			beingTwo: {
 				name: 'MARS',
+				tab: 'MARS',
 				image: {
 					mobile: '/assets/images/roman/mars-mobile.jpg',
 					tablet: '/assets/images/roman/mars-tablet.jpg',
@@ -34,6 +36,7 @@ export const ROMAN_INFO = [
 			},
 			beingThree: {
 				name: 'VENUS',
+				tab: 'VENUS',
 				image: {
 					mobile: '/assets/images/roman/venus-mobile.jpg',
 					tablet: '/assets/images/roman/venus-tablet.jpg',
@@ -46,6 +49,7 @@ export const ROMAN_INFO = [
 		1: {
 			beingOne: {
 				name: 'FAUN',
+				tab: 'FAUN',
 				image: {
 					mobile: '/assets/images/roman/faun-mobile.jpg',
 					tablet: '/assets/images/roman/faun-tablet.jpg',
@@ -56,6 +60,7 @@ export const ROMAN_INFO = [
 			},
 			beingTwo: {
 				name: 'FURIES',
+				tab: 'FURIES',
 				image: {
 					mobile: '/assets/images/roman/furies-mobile.jpg',
 					tablet: '/assets/images/roman/furies-tablet.jpg',
@@ -66,6 +71,7 @@ export const ROMAN_INFO = [
 			},
 			beingThree: {
 				name: 'BASILISK',
+				tab: 'BASILISK',
 				image: {
 					mobile: '/assets/images/roman/basilisk-mobile.jpg',
 					tablet: '/assets/images/roman/basilisk-tablet.jpg',
@@ -78,6 +84,7 @@ export const ROMAN_INFO = [
 		2: {
 			beingOne: {
 				name: 'ROMULUS AND REMUS',
+				tab: 'ROMULUS',
 				image: {
 					mobile: '/assets/images/roman/romulus-mobile.jpg',
 					tablet: '/assets/images/roman/romulus-tablet.jpg',
@@ -88,6 +95,7 @@ export const ROMAN_INFO = [
 			},
 			beingTwo: {
 				name: 'THE RAPE OF SABINE',
+				tab: 'SABINE',
 				image: {
 					mobile: '/assets/images/roman/sabine-mobile.jpg',
 					tablet: '/assets/images/roman/sabine-tablet.jpg',
@@ -98,6 +106,7 @@ export const ROMAN_INFO = [
 			},
 			beingThree: {
 				name: 'THE FALL OF TARPEIA',
+				tab: 'TARPEIA',
 				image: {
 					mobile: '/assets/images/roman/tarpeia-mobile.jpg',
 					tablet: '/assets/images/roman/tarpeia-tablet.jpg',

@@ -14,6 +14,7 @@ export const EGYPTIAN_INFO = [
 		0: {
 			beingOne: {
 				name: 'RA',
+				tab: 'RA',
 				image: {
 					mobile: '/assets/images/egyptian/ra-mobile.jpg',
 					tablet: '/assets/images/egyptian/ra-tablet.jpg',
@@ -24,6 +25,7 @@ export const EGYPTIAN_INFO = [
 			},
 			beingTwo: {
 				name: 'ANUBIS',
+				tab: 'ANUBIS',
 				image: {
 					mobile: '/assets/images/egyptian/anubis-mobile.jpg',
 					tablet: '/assets/images/egyptian/anubis-tablet.jpg',
@@ -34,6 +36,7 @@ export const EGYPTIAN_INFO = [
 			},
 			beingThree: {
 				name: 'HORUS',
+				tab: 'HORUS',
 				image: {
 					mobile: '/assets/images/egyptian/horus-mobile.jpg',
 					tablet: '/assets/images/egyptian/horus-tablet.jpg',
@@ -46,6 +49,7 @@ export const EGYPTIAN_INFO = [
 		1: {
 			beingOne: {
 				name: 'AMMIT',
+				tab: 'AMMIT',
 				image: {
 					mobile: '/assets/images/egyptian/ammit-mobile.jpg',
 					tablet: '/assets/images/egyptian/ammit-tablet.jpg',
@@ -56,6 +60,7 @@ export const EGYPTIAN_INFO = [
 			},
 			beingTwo: {
 				name: 'BENNU',
+				tab: 'BENNU',
 				image: {
 					mobile: '/assets/images/egyptian/bennu-mobile.jpg',
 					tablet: '/assets/images/egyptian/bennu-tablet.jpg',
@@ -66,6 +71,7 @@ export const EGYPTIAN_INFO = [
 			},
 			beingThree: {
 				name: 'SERPOPARD',
+				tab: 'SERPOPARD',
 				image: {
 					mobile: '/assets/images/egyptian/serpopard-mobile.jpg',
 					tablet: '/assets/images/egyptian/serpopard-tablet.jpg',
@@ -78,6 +84,7 @@ export const EGYPTIAN_INFO = [
 		2: {
 			beingOne: {
 				name: 'THE TEARS OF RA',
+				tab: 'TEARS',
 				image: {
 					mobile: '/assets/images/egyptian/tears-mobile.jpg',
 					tablet: '/assets/images/egyptian/tears-tablet.jpg',
@@ -88,6 +95,7 @@ export const EGYPTIAN_INFO = [
 			},
 			beingTwo: {
 				name: 'THE BIRTH OF ANUBIS',
+				tab: 'BIRTH',
 				image: {
 					mobile: '/assets/images/egyptian/birth-mobile.jpg',
 					tablet: '/assets/images/egyptian/birth-tablet.jpg',
@@ -98,6 +106,7 @@ export const EGYPTIAN_INFO = [
 			},
 			beingThree: {
 				name: 'SET STEALS POWER',
+				tab: 'STEAL',
 				image: {
 					mobile: '/assets/images/egyptian/steal-mobile.jpg',
 					tablet: '/assets/images/egyptian/steal-tablet.jpg',

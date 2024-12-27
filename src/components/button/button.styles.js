@@ -1,20 +1,20 @@
 import styled from 'styled-components';
+import { COLORS } from '../../styles/colors';
+import { FONT_FAMILY, FONT_SIZE, FONT_WEIGHT } from '../../styles/fonts';
 
 const StyledButton = styled.button`
-	background-color: ${({ color }) => color};
-	color: white;
-	border: none;
-	padding: 0.5rem;
-
-	@media screen and (width>768px) {
-		display: block;
-	}
-
-	@media (hover: hover) {
-		&:hover {
-			scale: 0.8;
-		}
-	}
+	width: 100px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: ${COLORS.tabs};
+	border: 1px solid ${COLORS.tabs};
+	background-color: transparent;
+	font-family: ${FONT_FAMILY.playfair};
+	font-weight: ${FONT_WEIGHT.bold};
+	font-size: ${FONT_SIZE.s};
+	letter-spacing: 1px;
 `;
 
 export { StyledButton };

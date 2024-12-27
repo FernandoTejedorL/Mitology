@@ -14,6 +14,7 @@ export const GREEK_INFO = [
 		0: {
 			beingOne: {
 				name: 'ZEUS',
+				tab: 'ZEUS',
 				image: {
 					mobile: '/assets/images/greek/zeus-mobile.jpg',
 					tablet: '/assets/images/greek/zeus-tablet.jpg',
@@ -24,6 +25,7 @@ export const GREEK_INFO = [
 			},
 			beingTwo: {
 				name: 'ATHENEA',
+				tab: 'ATHENEA',
 				image: {
 					mobile: '/assets/images/greek/athenea-mobile.jpg',
 					tablet: '/assets/images/greek/athenea-tablet.jpg',
@@ -34,6 +36,7 @@ export const GREEK_INFO = [
 			},
 			beingThree: {
 				name: 'POSEIDON',
+				tab: 'POSEIDON',
 				image: {
 					mobile: '/assets/images/greek/poseidon-mobile.jpg',
 					tablet: '/assets/images/greek/poseidon-tablet.jpg',
@@ -46,6 +49,7 @@ export const GREEK_INFO = [
 		1: {
 			beingOne: {
 				name: 'MEDUSA',
+				tab: 'MEDUSA',
 				image: {
 					mobile: '/assets/images/greek/medusa-mobile.jpg',
 					tablet: '/assets/images/greek/medusa-tablet.jpg',
@@ -56,6 +60,7 @@ export const GREEK_INFO = [
 			},
 			beingTwo: {
 				name: 'MINOTAUR',
+				tab: 'MINOTAUR',
 				image: {
 					mobile: '/assets/images/greek/minotaur-mobile.jpg',
 					tablet: '/assets/images/greek/minotaur-tablet.jpg',
@@ -66,6 +71,7 @@ export const GREEK_INFO = [
 			},
 			beingThree: {
 				name: 'HYDRA',
+				tab: 'HYDRA',
 				image: {
 					mobile: '/assets/images/greek/hydra-mobile.jpg',
 					tablet: '/assets/images/greek/hydra-tablet.jpg',
@@ -78,6 +84,7 @@ export const GREEK_INFO = [
 		2: {
 			beingOne: {
 				name: 'ICARUS AND DEDALUS',
+				tab: 'ICARUS',
 				image: {
 					mobile: '/assets/images/greek/icarus-mobile.jpg',
 					tablet: '/assets/images/greek/icarus-tablet.jpg',
@@ -88,6 +95,7 @@ export const GREEK_INFO = [
 			},
 			beingTwo: {
 				name: 'ORPHEUS AND EURYDICE',
+				tab: 'ORPHEUS',
 				image: {
 					mobile: '/assets/images/greek/orpheus-mobile.jpg',
 					tablet: '/assets/images/greek/orpheus-tablet.jpg',
@@ -98,6 +106,7 @@ export const GREEK_INFO = [
 			},
 			beingThree: {
 				name: 'PERSEUS AND MEDUSA',
+				tab: 'PERSEUS',
 				image: {
 					mobile: '/assets/images/greek/perseus-mobile.jpg',
 					tablet: '/assets/images/greek/perseus-tablet.jpg',
