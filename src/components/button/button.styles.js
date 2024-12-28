@@ -8,8 +8,11 @@ const StyledButton = styled.button`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: ${COLORS.tabs};
-	border: 1px solid ${COLORS.tabs};
+	color: ${({ $color, $topic, $activetopic }) =>
+		$topic === $activetopic ? $color : COLORS.tabs};
+	border: 1px solid
+		${({ $color, $topic, $activetopic }) =>
+			$topic === $activetopic ? $color : COLORS.tabs};
 	background-color: transparent;
 	font-family: ${FONT_FAMILY.playfair};
 	font-weight: ${FONT_WEIGHT.bold};

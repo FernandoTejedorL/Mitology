@@ -30,7 +30,7 @@ export const MITHOLOGIES_INFO = [
 		id: v4(),
 		name: 'NORDIC',
 		path: 'mithology/nordic',
-		logo: 'public/assets/images/home/nordic-logo.png',
+		logo: '/assets/images/home/nordic-logo.png',
 		info: NORDIC_INFO
 	}
 ];

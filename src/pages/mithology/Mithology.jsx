@@ -26,9 +26,30 @@ const Mithology = ({ mithologyInfo }) => {
 			<StyledMythBody>
 				<StyledMythKind>{data.kind}</StyledMythKind>
 				<StyledTabContainer>
-					<Button action={setTopic} topic={0} text='GODS' />
-					<Button action={setTopic} topic={1} text='CREATURES' />
-					<Button action={setTopic} topic={2} text='MYTHS' />
+					<Button
+						action={setTopic}
+						topic={0}
+						text='GODS'
+						$color={data.color}
+						$activetopic={topic}
+						$topic={0}
+					/>
+					<Button
+						action={setTopic}
+						topic={1}
+						$topic={1}
+						text='CREATURES'
+						$color={data.color}
+						$activetopic={topic}
+					/>
+					<Button
+						action={setTopic}
+						topic={2}
+						$topic={2}
+						text='MYTHS'
+						$color={data.color}
+						$activetopic={topic}
+					/>
 				</StyledTabContainer>
 				<Story
 					picture={toGetData.image}
@@ -40,16 +61,25 @@ const Mithology = ({ mithologyInfo }) => {
 						action={setBeing}
 						topic={'beingOne'}
 						text={data[topic].beingOne.tab}
+						$color={data.color}
+						$activetopic={being}
+						$topic={'beingOne'}
 					/>
 					<Button
 						action={setBeing}
 						topic={'beingTwo'}
 						text={data[topic].beingTwo.tab}
+						$color={data.color}
+						$activetopic={being}
+						$topic={'beingTwo'}
 					/>
 					<Button
 						action={setBeing}
 						topic={'beingThree'}
 						text={data[topic].beingThree.tab}
+						$color={data.color}
+						$activetopic={being}
+						$topic={'beingThree'}
 					/>
 				</StyledTabContainer>
 			</StyledMythBody>
