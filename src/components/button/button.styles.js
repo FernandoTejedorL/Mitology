@@ -3,7 +3,7 @@ import { COLORS } from '../../styles/colors';
 import { FONT_FAMILY, FONT_SIZE, FONT_WEIGHT } from '../../styles/fonts';
 
 const StyledButton = styled.button`
-	width: 100px;
+	width: 110px;
 	height: 30px;
 	display: flex;
 	align-items: center;

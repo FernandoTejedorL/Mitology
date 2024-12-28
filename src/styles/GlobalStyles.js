@@ -28,6 +28,7 @@ export const GlobalStyles = createGlobalStyle`
         font-family: sans-serif;
     }
 
+    p,
     h1,
     h2,
     h3,
