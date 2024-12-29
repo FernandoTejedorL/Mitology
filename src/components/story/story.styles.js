@@ -17,7 +17,7 @@ const StyledNameAndStory = styled.div`
 	@media screen and (width>=768px) {
 		display: flex;
 		flex-direction: column;
-		gap: 7px;
+		gap: 0.4375rem;
 	}
 `;
 
@@ -35,7 +35,7 @@ const StyledCaption = styled.p`
 	font-size: ${FONT_SIZE.s};
 
 	@media screen and (width>=768px) {
-		width: 316px;
+		width: 19.75rem;
 		text-align: left;
 	}
 `;
@@ -47,7 +47,7 @@ const StyledStoryTablet = styled.div`
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 32px;
+		gap: 2rem;
 	}
 
 	@media screen and (width>=1024px) {
@@ -75,7 +75,7 @@ const StyledStoryDesktop = styled.div`
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 42px;
+		gap: 2.625rem;
 	}
 `;
 
@@ -83,8 +83,8 @@ const StyledBottomDesktop = styled.div`
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	max-width: 986px;
-	gap: 131px;
+	max-width: 61.625rem;
+	gap: 8.1875rem;
 	justify-content: space-between;
 `;
 

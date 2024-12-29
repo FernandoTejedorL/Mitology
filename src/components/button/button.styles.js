@@ -3,8 +3,8 @@ import { COLORS } from '../../styles/colors';
 import { FONT_FAMILY, FONT_SIZE, FONT_WEIGHT } from '../../styles/fonts';
 
 const StyledButton = styled.button`
-	height: 30px;
-	width: 110px;
+	height: 1.875rem;
+	width: 6.875rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -17,11 +17,11 @@ const StyledButton = styled.button`
 	font-family: ${FONT_FAMILY.playfair};
 	font-weight: ${FONT_WEIGHT.bold};
 	font-size: ${FONT_SIZE.s};
-	letter-spacing: 1px;
+	letter-spacing: 0.0625rem;
 
 	@media screen and (width>=1024px) {
-		width: ${({ $width }) => ($width ? $width : '110px')};
-		height: ${({ $height }) => ($height ? $height : '30px')};
+		width: ${({ $width }) => ($width ? $width : '6.875rem')};
+		height: ${({ $height }) => ($height ? $height : '1.875rem')};
 		font-size: ${FONT_SIZE.l};
 	}
 

@@ -23,7 +23,7 @@ const StyledMainContainer = styled.div`
 	padding-inline: 1.25rem;
 
 	@media screen and (width>=1024px) {
-		padding: 46px 70px;
+		padding: 2.875rem 4.375rem;
 	}
 `;
 
@@ -31,7 +31,7 @@ const StyledTitle = styled.h2`
 	font-family: ${FONT_FAMILY.cinzel};
 	font-weight: ${FONT_WEIGHT.black};
 	font-size: ${FONT_SIZE.xl};
-	letter-spacing: 2px;
+	letter-spacing: 0.125rem;
 	text-align: center;
 `;
 
@@ -40,7 +40,7 @@ const StyledParagraph = styled.p`
 	font-size: ${FONT_SIZE.xs};
 	font-weight: ${FONT_WEIGHT.regular};
 	color: ${COLORS.tabs};
-	letter-spacing: 1.5px;
+	letter-spacing: 0.0938rem;
 	line-height: 1.75rem;
 	text-align: center;
 
@@ -54,7 +54,7 @@ const StyledParagraphBigContainer = styled.div`
 	@media screen and (width>=1024px) {
 		display: flex;
 		justify-content: space-between;
-		gap: 122px;
+		gap: 7.625rem;
 	}
 `;
 
@@ -65,23 +65,23 @@ const StyledParagraphBig = styled.p`
 		font-weight: ${FONT_WEIGHT.regular};
 		max-width: 587px;
 		color: ${COLORS.tabs};
-		letter-spacing: 1.5px;
-		line-height: 1.75rem;
+		letter-spacing: 0.0938rem;
+		line-height: 28px;
 		text-align: ${({ $textAlign }) => $textAlign};
 	}
 `;
 
 const StyledButtonsGrid = styled.div`
 	display: grid;
-	grid-template-columns: repeat(2, 154px);
-	grid-template-rows: repeat(2, 179px);
+	grid-template-columns: repeat(2, 9.625rem);
+	grid-template-rows: repeat(2, 11.1875rem);
 	gap: 0.985rem;
 
 	@media screen and (width>=768px) {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 9px;
+		gap: 0.5625rem;
 	}
 `;
 
@@ -91,7 +91,7 @@ const StyledLegend = styled.p`
 	font-size: ${FONT_SIZE.l};
 	font-weight: 300;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 0.125rem;
 	color: white;
 `;
 
@@ -105,8 +105,8 @@ const StyledToHideInSmall = styled.img`
 	display: none;
 	@media screen and (width>=1024px) {
 		display: block;
-		width: 185px;
-		height: 63px;
+		width: 11.5625rem;
+		height: 3.9375rem;
 	}
 `;
 

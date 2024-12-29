@@ -19,7 +19,8 @@ const Menu = () => {
 							key={mithology.id}
 							{...mithology}
 							name={mithology.name}
-							$color={mithology.info.color}
+							path={mithology.path}
+							$color={mithology.color}
 						/>
 					))}
 				</StyledUl>

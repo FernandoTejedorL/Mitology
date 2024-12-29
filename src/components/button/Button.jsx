@@ -12,7 +12,6 @@ const Button = ({
 	$height,
 	$width
 }) => {
-	console.log($color, $topic, $activetopic);
 	return (
 		<StyledButton
 			$height={$height}

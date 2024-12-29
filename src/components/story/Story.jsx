@@ -25,12 +25,7 @@ const Story = ({
 		<>
 			<StyledStory>
 				<StyledBeing>{being}</StyledBeing>
-				<picture>
-					<source media='(min-width: 1023px)' srcSet={picture.desktop} />
-					<source media='(min-width: 767px)' srcSet={picture.tablet} />
-					<source media='(min-width: 360px)' srcSet={picture.mobile} />
-					<img src={picture.mobile} alt='being-pic' />
-				</picture>
+				<img src={picture.mobile} alt='being-pic' />
 				<img src='/assets/images/common/separator-h.png' alt='' />
 				<StyledCaption>{caption}</StyledCaption>
 				<TabContainer
@@ -50,12 +45,7 @@ const Story = ({
 						<StyledCaption>{caption}</StyledCaption>
 					</StyledNameAndStory>
 					<img src='/assets/images/common/separator-v.png' alt='' />
-					<picture>
-						<source media='(min-width: 1023px)' srcSet={picture.desktop} />
-						<source media='(min-width: 767px)' srcSet={picture.tablet} />
-						<source media='(min-width: 360px)' srcSet={picture.mobile} />
-						<img src={picture.mobile} alt='being-pic' />
-					</picture>
+					<img src={picture.tablet} alt='being-pic' />
 				</StyledStoryTabletContent>
 				<TabContainer
 					setBeing={setBeing}
@@ -68,12 +58,7 @@ const Story = ({
 				/>
 			</StyledStoryTablet>
 			<StyledStoryDesktop>
-				<picture>
-					<source media='(min-width: 1023px)' srcSet={picture.desktop} />
-					<source media='(min-width: 767px)' srcSet={picture.tablet} />
-					<source media='(min-width: 360px)' srcSet={picture.mobile} />
-					<img src={picture.mobile} alt='being-pic' />
-				</picture>
+				<img src={picture.desktop} alt='being-pic' />
 				<img src='/assets/images/common/separator-h.png' alt='' />
 				<StyledBottomDesktop>
 					<StyledNameAndStory>

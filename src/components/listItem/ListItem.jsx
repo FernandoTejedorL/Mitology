@@ -1,18 +1,17 @@
-import { NavLink } from 'react-router-dom';
-import { StyledListItem } from './listItem.styles';
+import { StyledListItem, StyledNavLink } from './listItem.styles';
 
-const ListItem = ({ name, setShowMenu, $color }) => {
+const ListItem = ({ name, setShowMenu, $color, path }) => {
 	return (
 		<StyledListItem>
-			<NavLink
-				to={`/mithology/${name.toLowerCase()}`}
+			<StyledNavLink
+				to={path}
 				$color={$color}
 				onClick={() => {
 					setShowMenu(false);
 				}}
 			>
 				{name}
-			</NavLink>
+			</StyledNavLink>
 		</StyledListItem>
 	);
 };

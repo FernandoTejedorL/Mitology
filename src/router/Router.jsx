@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
-import Home from '../pages/home/Home';
 import { MITHOLOGIES_INFO } from '../constants/mithologies-info';
+import Home from '../pages/home/Home';
 import Mithology from '../pages/mithology/Mithology';
 
 const Router = () => {

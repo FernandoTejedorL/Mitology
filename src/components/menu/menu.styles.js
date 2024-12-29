@@ -4,7 +4,7 @@ import { FONT_SIZE } from '../../styles/fonts';
 
 const StyledNav = styled.nav`
 	position: fixed;
-	top: 103px;
+	top: 6.4375rem;
 	left: 0;
 	background-color: ${COLORS.darken};
 	width: 100vw;

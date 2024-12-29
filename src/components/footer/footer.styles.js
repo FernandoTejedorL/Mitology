@@ -27,7 +27,7 @@ const StyledLogosContainer = styled.div`
 `;
 
 const StyledGoogle = styled.img`
-	height: 30px;
+	height: 1.875rem;
 	width: 6.1875rem;
 `;
 

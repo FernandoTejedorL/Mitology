@@ -7,7 +7,7 @@ const StyledMythButton = styled.button`
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	gap: 24px;
+	gap: 1.5rem;
 	height: 11.1875rem;
 	width: 9.625rem;
 	border-radius: 0.5rem;
@@ -17,8 +17,8 @@ const StyledMythButton = styled.button`
 	padding: 1rem;
 
 	@media screen and (width>=768px) {
-		height: 175px;
-		width: 175px;
+		height: 10.9375rem;
+		width: 10.9375rem;
 	}
 `;
 
@@ -29,7 +29,7 @@ const StyledMithButtonTxt = styled.span`
 	letter-spacing: 0.125rem;
 	padding: 0.2813rem 1.0625rem;
 	border-radius: 0.5rem;
-	border: 1px solid ${COLORS.primary};
+	border: 0.0625rem solid ${COLORS.primary};
 `;
 
 export { StyledMythButton, StyledMithButtonTxt };
