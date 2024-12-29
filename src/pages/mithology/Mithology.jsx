@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Button from '../../components/button/Button';
 import Story from '../../components/story/Story';
+import Footer from '../../components/footer/Footer';
+import Header from '../../components/header/Header';
 import {
 	StyledBannerMith,
 	StyledMithology,
@@ -8,8 +10,6 @@ import {
 	StyledMythKind,
 	StyledButtonsContainer
 } from './mithology.styles';
-import Footer from '../../components/footer/Footer';
-import Header from '../../components/header/Header';
 const Mithology = ({ mithologyInfo }) => {
 	const [data] = mithologyInfo;
 	const [topic, setTopic] = useState(0);
