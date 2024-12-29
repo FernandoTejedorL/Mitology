@@ -5,6 +5,7 @@ export const GREEK_INFO = [
 	{
 		id: v4(),
 		color: COLORS.greek,
+		hover: COLORS.greekhover,
 		banner: {
 			mobile: '/assets/images/greek/banner-mobile.jpg',
 			tablet: '/assets/images/greek/banner-tablet.jpg',

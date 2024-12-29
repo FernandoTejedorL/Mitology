@@ -13,6 +13,14 @@ const StyledStory = styled.div`
 	}
 `;
 
+const StyledNameAndStory = styled.div`
+	@media screen and (width>=768px) {
+		display: flex;
+		flex-direction: column;
+		gap: 7px;
+	}
+`;
+
 const StyledBeing = styled.h3`
 	font-family: ${FONT_FAMILY.cinzel};
 	font-weight: ${FONT_WEIGHT.bold};
@@ -37,6 +45,19 @@ const StyledStoryTablet = styled.div`
 
 	@media screen and (width>=768px) {
 		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 32px;
+	}
+
+	@media screen and (width>=1024px) {
+		display: none;
+	}
+`;
+
+const StyledStoryTabletContent = styled.div`
+	@media screen and (width>=768px) {
+		display: flex;
 		flex-direction: row;
 		align-items: center;
 		gap: 1.5rem;
@@ -54,13 +75,26 @@ const StyledStoryDesktop = styled.div`
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		gap: 42px;
 	}
+`;
+
+const StyledBottomDesktop = styled.div`
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	max-width: 986px;
+	gap: 131px;
+	justify-content: space-between;
 `;
 
 export {
 	StyledStory,
 	StyledBeing,
 	StyledCaption,
+	StyledNameAndStory,
 	StyledStoryTablet,
-	StyledStoryDesktop
+	StyledStoryTabletContent,
+	StyledStoryDesktop,
+	StyledBottomDesktop
 };

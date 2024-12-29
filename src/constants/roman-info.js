@@ -5,6 +5,7 @@ export const ROMAN_INFO = [
 	{
 		id: v4(),
 		color: COLORS.roman,
+		hover: COLORS.romanhover,
 		banner: {
 			mobile: '/assets/images/roman/banner-mobile.jpg',
 			tablet: '/assets/images/roman/banner-tablet.jpg',

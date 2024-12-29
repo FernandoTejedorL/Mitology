@@ -15,7 +15,12 @@ const Menu = () => {
 			<StyledNav $showMenu={showMenu}>
 				<StyledUl>
 					{MITHOLOGIES_INFO.map(mithology => (
-						<ListItem key={mithology.id} {...mithology} name={mithology.name} />
+						<ListItem
+							key={mithology.id}
+							{...mithology}
+							name={mithology.name}
+							$color={mithology.info.color}
+						/>
 					))}
 				</StyledUl>
 			</StyledNav>

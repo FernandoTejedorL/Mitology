@@ -30,7 +30,7 @@ const StyledMythKind = styled.h2`
 	text-align: center;
 `;
 
-const StyledTabContainer = styled.div`
+const StyledButtonsContainer = styled.div`
 	display: flex;
 	gap: 1.0938rem;
 `;
@@ -40,5 +40,5 @@ export {
 	StyledBannerMith,
 	StyledMythBody,
 	StyledMythKind,
-	StyledTabContainer
+	StyledButtonsContainer
 };

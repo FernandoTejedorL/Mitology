@@ -5,6 +5,7 @@ export const NORDIC_INFO = [
 	{
 		id: v4(),
 		color: COLORS.nordic,
+		hover: COLORS.nordichover,
 		banner: {
 			mobile: '/assets/images/nordic/banner-mobile.jpg',
 			tablet: '/assets/images/nordic/banner-tablet.jpg',

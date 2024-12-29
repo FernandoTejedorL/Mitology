@@ -1,12 +1,26 @@
+import TabContainer from '../tabContainer/TabContainer';
 import {
 	StyledBeing,
+	StyledBottomDesktop,
 	StyledCaption,
+	StyledNameAndStory,
 	StyledStory,
 	StyledStoryDesktop,
-	StyledStoryTablet
+	StyledStoryTablet,
+	StyledStoryTabletContent
 } from './story.styles';
 
-const Story = ({ picture, being, caption }) => {
+const Story = ({
+	picture,
+	being,
+	setBeing,
+	data,
+	caption,
+	topic,
+	$color,
+	$hover,
+	$activetopic
+}) => {
 	return (
 		<>
 			<StyledStory>
@@ -19,19 +33,38 @@ const Story = ({ picture, being, caption }) => {
 				</picture>
 				<img src='/assets/images/common/separator-h.png' alt='' />
 				<StyledCaption>{caption}</StyledCaption>
+				<TabContainer
+					setBeing={setBeing}
+					data={data}
+					topic={topic}
+					being={being}
+					$color={$color}
+					$activetopic={$activetopic}
+				/>
 			</StyledStory>
 			<StyledStoryTablet>
-				<div>
-					<StyledBeing>{being}</StyledBeing>
-					<StyledCaption>{caption}</StyledCaption>
-				</div>
-				<img src='/assets/images/common/separator-v.png' alt='' />
-				<picture>
-					<source media='(min-width: 1023px)' srcSet={picture.desktop} />
-					<source media='(min-width: 767px)' srcSet={picture.tablet} />
-					<source media='(min-width: 360px)' srcSet={picture.mobile} />
-					<img src={picture.mobile} alt='being-pic' />
-				</picture>
+				<StyledStoryTabletContent>
+					<StyledNameAndStory>
+						<StyledBeing>{being}</StyledBeing>
+						<StyledCaption>{caption}</StyledCaption>
+					</StyledNameAndStory>
+					<img src='/assets/images/common/separator-v.png' alt='' />
+					<picture>
+						<source media='(min-width: 1023px)' srcSet={picture.desktop} />
+						<source media='(min-width: 767px)' srcSet={picture.tablet} />
+						<source media='(min-width: 360px)' srcSet={picture.mobile} />
+						<img src={picture.mobile} alt='being-pic' />
+					</picture>
+				</StyledStoryTabletContent>
+				<TabContainer
+					setBeing={setBeing}
+					data={data}
+					topic={topic}
+					being={being}
+					$color={$color}
+					$hover={$hover}
+					$activetopic={$activetopic}
+				/>
 			</StyledStoryTablet>
 			<StyledStoryDesktop>
 				<picture>
@@ -41,10 +74,20 @@ const Story = ({ picture, being, caption }) => {
 					<img src={picture.mobile} alt='being-pic' />
 				</picture>
 				<img src='/assets/images/common/separator-h.png' alt='' />
-				<div>
-					<StyledBeing>{being}</StyledBeing>
-					<StyledCaption>{caption}</StyledCaption>
-				</div>
+				<StyledBottomDesktop>
+					<StyledNameAndStory>
+						<StyledBeing>{being}</StyledBeing>
+						<StyledCaption>{caption}</StyledCaption>
+					</StyledNameAndStory>
+					<TabContainer
+						setBeing={setBeing}
+						data={data}
+						topic={topic}
+						being={being}
+						$color={$color}
+						$activetopic={$activetopic}
+					/>
+				</StyledBottomDesktop>
 			</StyledStoryDesktop>
 		</>
 	);

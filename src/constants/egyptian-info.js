@@ -5,6 +5,7 @@ export const EGYPTIAN_INFO = [
 	{
 		id: v4(),
 		color: COLORS.egyptian,
+		hover: COLORS.egyptianhover,
 		banner: {
 			mobile: '/assets/images/egyptian/banner-mobile.jpg',
 			tablet: '/assets/images/egyptian/banner-tablet.jpg',

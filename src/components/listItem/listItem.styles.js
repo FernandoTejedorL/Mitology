@@ -10,4 +10,5 @@ const StyledListItem = styled.li`
 		border-bottom: none;
 	}
 `;
+
 export { StyledListItem };
