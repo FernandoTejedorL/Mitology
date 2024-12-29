@@ -39,6 +39,7 @@ const Story = ({
 					topic={topic}
 					being={being}
 					$color={$color}
+					$hover={$hover}
 					$activetopic={$activetopic}
 				/>
 			</StyledStory>
@@ -85,6 +86,7 @@ const Story = ({
 						topic={topic}
 						being={being}
 						$color={$color}
+						$hover={$hover}
 						$activetopic={$activetopic}
 					/>
 				</StyledBottomDesktop>
