@@ -6,7 +6,7 @@ const StyledStory = styled.div`
 	flex-direction: column;
 	align-items: center;
 	gap: 1.5rem;
-	padding-inline: 1.25rem;
+	overflow: hidden;
 
 	@media screen and (width>=768px) {
 		display: none;

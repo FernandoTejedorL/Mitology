@@ -18,7 +18,7 @@ const StyledMythBody = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 1.75rem 1.25rem;
+	margin: 1.75rem 1.25rem;
 	gap: 2rem;
 `;
 
