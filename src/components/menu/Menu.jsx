@@ -21,6 +21,7 @@ const Menu = () => {
 							name={mithology.name}
 							path={mithology.path}
 							$color={mithology.color}
+							setShowMenu={setShowMenu}
 						/>
 					))}
 				</StyledUl>
