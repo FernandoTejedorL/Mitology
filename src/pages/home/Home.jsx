@@ -87,7 +87,7 @@ const Home = () => {
 						</StyledParagraphBig>
 					</StyledParagraphBigContainer>
 					<StyledLegend>
-						Even Olympus trembled ahead the power of Zeus thunder...
+						"Even Olympus trembled ahead the power of Zeus thunder..."
 					</StyledLegend>
 					<StyledToHideInBig
 						src='/assets/images/common/separator-h.png'
