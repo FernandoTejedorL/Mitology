@@ -10,7 +10,6 @@ const StyledMithology = styled.div`
 	color: ${COLORS.primary};
 `;
 
-
 const StyledBannerMith = styled.img`
 	width: 100vw;
 `;
